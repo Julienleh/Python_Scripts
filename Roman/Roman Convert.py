@@ -108,7 +108,7 @@ def Roman_thousand(number):
     return(roman_number)
 
 
-test_number = input ()
+test_number = input("Enter a number: ")
 roman_number_result = Roman_thousand(test_number)
-print(roman_number_result)
+print(f"the number is {roman_number_result} ({test_number}) in Roman")
 
